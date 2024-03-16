@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { BarraLateralComponent } from "./barra-lateral/barra-lateral.component";
 
+import { RouterOutlet } from '@angular/router';
+import { ProdutoComponent } from './produto/produto.component';
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.sass'
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.sass',
+    imports: [RouterOutlet, BarraLateralComponent, ProdutoComponent]
 })
 export class AppComponent {
   title = 'revendedor';
