@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './pedido.component.html',
-  styleUrl: './pedido.component.sass'
+  styleUrl: './pedido.component.scss'
 })
 export class PedidoComponent {
 

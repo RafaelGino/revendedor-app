@@ -7,7 +7,7 @@ import { ProdutoComponent } from './produto/produto.component';
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
-    styleUrl: './app.component.sass',
+    styleUrl: './app.component.scss',
     imports: [RouterOutlet, BarraLateralComponent, ProdutoComponent]
 })
 export class AppComponent {

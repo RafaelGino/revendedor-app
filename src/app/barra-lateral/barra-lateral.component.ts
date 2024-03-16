@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './barra-lateral.component.html',
-  styleUrl: './barra-lateral.component.sass'
+  styleUrl: './barra-lateral.component.scss'
 })
 export class BarraLateralComponent {
 
